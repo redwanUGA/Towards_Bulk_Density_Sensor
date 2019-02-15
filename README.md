@@ -19,8 +19,11 @@ Sensors --[wired connection]--> Arduino --[Serial]--> Raspberry pi --[Wi-fi]--> 
   - [ ] ORP
 
 - __Arduino__
-  - Follow Lesson 2 of `37 SENSOR KIT TUTORIAL FOR UNO AND MEGA（v1.0）.pdf`
-  - DHT library is needed to be imported 
+  - Follow Lesson 2 of `37 SENSOR KIT TUTORIAL FOR UNO AND MEGA（v1.0）.pdf` for circuit connection. 
+  ! Caution externally powered sensor is not working at this point. 
+  - DHT library is needed to be imported to make the code work
+  - Importing DHT library simply upload DHT11 example code in Arduino board. 
+  - 
  
 
 
