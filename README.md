@@ -20,7 +20,7 @@ Sensors --[wired connection]--> Arduino --[Serial]--> Raspberry pi --[Wi-fi]--> 
 
 - __Arduino__
   - Follow Lesson 2 of `37 SENSOR KIT TUTORIAL FOR UNO AND MEGA（v1.0）.pdf` for circuit connection. 
-    <p class="warning"> Caution externally powered sensor is not working at this point. </p> 
+    <b class="warning"> Caution externally powered sensor is not working at this point. </b> 
   - DHT library is needed to be imported to make the code work
   - Importing DHT library simply upload DHT11 example code in Arduino board. 
  
