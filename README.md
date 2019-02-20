@@ -24,6 +24,11 @@ Sensors --[wired connection]--> Arduino --[Serial]--> Raspberry pi --[Wi-fi]--> 
   - DHT library is needed to be imported to make the code work
   - After importing DHT library in the IDE and plugging everything up, simply upload DHT11 example code in Arduino board. 
 - __Raspberry Pi__
+
+  __Configuration Guidance__
+  
+  
+  
   - [ ] Configuration guidance will be added right now
   - [x] Fully configured for SSH and VNC connection
   - To do ssh use Putty or MobaXterm 
