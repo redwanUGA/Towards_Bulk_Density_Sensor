@@ -26,10 +26,15 @@ Sensors --[wired connection]--> Arduino --[Serial]--> Raspberry pi --[Wi-fi]--> 
 - __Raspberry Pi__
 
   __Configuration Guidance__
+  - Follow steps 1-8 on the Raspberry Pi documentation sheet.
+  - To ensure the keyboard is working properly, go to the command terminal and do "sudo nano /etc/default/keyboard", and change line 6
+    to "xkBLAYOUT = "uk", then reboot the pi.
+  - To set up internet connection, click the networks symbol in the top right corner of the desktop and select the network you wish to
+    connect to. If the network requires a username and/or password, use the browser to login.
+  - To enable ssh and vnc connection, click the pi symbol in the top left corner of the screen, select "Preferences" and then "Raspberry
+    Pi configuration". Select "interfaces" and click the boxes to enable ssh and vnc. 
+    Note: It may be best to just enable everything on this menu.
   
-  
-  
-  - [ ] Configuration guidance will be added right now
   - [x] Fully configured for SSH and VNC connection
   - To do ssh use Putty or MobaXterm 
   - To do VNC use RealVNC
