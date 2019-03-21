@@ -1,0 +1,1 @@
+Copy the file to /etc/udev/rules.d
