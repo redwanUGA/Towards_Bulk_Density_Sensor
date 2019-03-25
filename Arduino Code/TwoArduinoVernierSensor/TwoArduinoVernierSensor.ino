@@ -37,13 +37,13 @@ void loop() {
   sensorValueMoisture=slopeMoisture*voltageMoisture+interceptMoisture; //convert to sensor value with linear calibration equation
 
   JSONvalue = String("{") + 
-              String("Salinity:") +
+              String("\"Salinity\":") +
               sensorValueSalinity +
               String(",") +
-              String("SoilMoisture:") +
+              String("\"SoilMoisture\":") +
               sensorValueMoisture +  
               String("}");
   Serial.println(JSONvalue);
-  delay(500);
+  delay(1000);
   
 }
