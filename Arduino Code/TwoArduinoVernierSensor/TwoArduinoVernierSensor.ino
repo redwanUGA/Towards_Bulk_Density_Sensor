@@ -25,7 +25,7 @@ void setup() {
 
 void loop() {
   
-  rawCountSalinity=analogRead(A1); //read one data value (0-1023)
+  rawCountSalinity=analogRead(A0); //read one data value (0-1023)
   voltageSalinity=rawCountSalinity/1023*5; //convert raw count to voltage (0-5V)
   sensorValueSalinity=slopeSalinity*voltageSalinity+interceptSalinity; //convert to sensor value with linear calibration equation
   // Serial.print(sensorValue); //print sensor value 
